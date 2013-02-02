@@ -1,2 +1,6 @@
 .rake_test_cache
 
+# Use berks install --path cookbooks
+cookbooks/
+var/
+
