@@ -1,0 +1,22 @@
+{
+  "id": "workstation",
+
+  // See https://github.com/jtimberman/workstation-chef-repo/blob/master/data_bags/apps/workstation.json
+  "dirs": [
+    "bin",
+    "src"
+  ],
+
+  "dmgs": {
+    "Dropbox": {
+      "volumes_dir": "Dropbox Installer",
+      "url": "https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%201.6.16.dmg",
+      "checksum": "c3854c9653fbae034f9b071f8ffbfb5fd92aa8cbb2a532f317fdc1137ad6cf38"
+    }
+  },
+
+  "brew_packages": {},
+
+  "plists": []
+}
+

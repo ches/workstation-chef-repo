@@ -3,7 +3,7 @@ require 'pathname'
 chef_root = Pathname.new(__FILE__).dirname.parent.expand_path
 var = chef_root + 'var'
 
-cookbook_path    chef_root + 'cookbooks'
+cookbook_path    [chef_root + 'cookbooks', chef_root + 'site-cookbooks'].map &:to_s
 role_path        chef_root + 'roles'
 data_bag_path    chef_root + 'data_bags'
 
