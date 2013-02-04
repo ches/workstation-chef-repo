@@ -7,15 +7,59 @@
     "src"
   ],
 
+  // The homebrew cookbook installs git
+  "brew_packages": {
+    "autojump": "",
+    "bash-completion": "",
+    "cloc": "",
+    "ctags": "",
+    "gist": "",
+    "git-flow": "",
+    "graphicsmagick": "",
+    "htop": "",
+    "hub": "",
+    "irssi": "",
+    "lesspipe": "--syntax-highlighting",
+    // Argh, fix this: http://superuser.com/questions/440981/how-can-i-use-the-homebrew-python-version-with-homebrew-macvim-on-snow-leopard
+    // "macvim": "",
+    "mercurial": "",
+    "mysql": "",
+    "postgresql": "--enable-dtrace",
+    "proctools": "",
+    "python": "",
+    "readline": "",
+    "redis": "",
+    "sqlite": "",
+    "tmux": "",
+    "urlview": ""
+  },
+
   "dmgs": {
     "Dropbox": {
       "volumes_dir": "Dropbox Installer",
       "url": "https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%201.6.16.dmg",
       "checksum": "c3854c9653fbae034f9b071f8ffbfb5fd92aa8cbb2a532f317fdc1137ad6cf38"
+    },
+    "GitX": {
+      "volumes_dir": "GitX-dev",
+      "url": "https://github.com/downloads/rowanj/gitx/GitX-dev-57.dmg",
+      "checksum": "2ebe7df4598ead51656466f94e2c7e3ef6ec6dfefd1e6a84f53adf5c15c62b9e",
+      "dmg_name": "GitX-dev-57"
+    },
+    "Google Chrome": {
+      "url": "https://dl.google.com/chrome/mac/dev/GoogleChrome.dmg"
+    },
+    "pgAdmin3": {
+      "accept_eula": true,
+      "url": "http://ftp.postgresql.org/pub/pgadmin3/release/v1.16.1/osx/pgadmin3-1.16.1.dmg",
+      "checksum": "4fcb7a65cf53a63761e87079dd21fcf7c8be7ef74ed1c3a3644912a2b0f8b3fe"
+    },
+    "Sequel Pro": {
+      "volumes_dir": "Sequel Pro 1.0.1",
+      "url": "http://sequel-pro.googlecode.com/files/sequel-pro-1.0.1.dmg",
+      "checksum": "256873df2bdaebad9997acb2182428790454cb577d2c1af9565ecc4f670ebf92"
     }
   },
-
-  "brew_packages": {},
 
   "plists": []
 }

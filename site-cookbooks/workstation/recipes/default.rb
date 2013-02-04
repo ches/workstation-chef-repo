@@ -84,6 +84,7 @@ when "mac_os_x"
       type data['type'] if data.has_key?('type')
       source data['url']
       checksum data['checksum']
+      accept_eula true if data['accept_eula']
     end
   end
 end
