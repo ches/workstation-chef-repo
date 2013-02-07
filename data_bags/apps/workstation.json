@@ -24,6 +24,8 @@
     // "macvim": "",
     "mercurial": "",
     "mysql": "",
+    "ncmpcpp": "--clock --outputs --visualizer",
+    "phantomjs": "",
     "postgresql": "--enable-dtrace",
     "proctools": "",
     "python": "",
@@ -31,7 +33,8 @@
     "redis": "",
     "sqlite": "",
     "tmux": "",
-    "urlview": ""
+    "urlview": "",
+    "willgit": "--HEAD"  // git-wtf
   },
 
   "dmgs": {
@@ -58,6 +61,10 @@
       "volumes_dir": "Sequel Pro 1.0.1",
       "url": "http://sequel-pro.googlecode.com/files/sequel-pro-1.0.1.dmg",
       "checksum": "256873df2bdaebad9997acb2182428790454cb577d2c1af9565ecc4f670ebf92"
+    },
+    "Tunnelblick": {
+      "url": "https://tunnelblick.googlecode.com/files/Tunnelblick_3.2.8.dmg",
+      "checksum": "e3d6ba702b6bc58a1a470d2fcaea95b7ead8e26965820cba2b919d58e9190b78"
     }
   },
 
