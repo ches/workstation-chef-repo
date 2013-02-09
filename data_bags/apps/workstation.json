@@ -7,6 +7,10 @@
     "src"
   ],
 
+  "brew_taps": [
+    "homebrew/headonly"
+  ],
+
   // The homebrew cookbook installs git
   "brew_packages": {
     "autojump": "",

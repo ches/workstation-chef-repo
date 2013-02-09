@@ -25,6 +25,14 @@ rescue Net::HTTPServerException => e
 end
 
 if use_brew?
+  if wk.has_key?('brew_taps')
+    wk['brew_taps'].each do |tap|
+      homebrew_tap tap do
+        action :tap
+      end
+    end
+  end
+
   wk['brew_packages'].each do |p,o|
     package p do
       action :install
